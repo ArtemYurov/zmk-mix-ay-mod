@@ -9,8 +9,8 @@ manifest:
     revision: v0.3
     import: app/west.yml
   - name: cirque-input-module
-    url: https://github.com/geeksville/cirque-input-module
-    revision: main
+    url: https://github.com/ArtemYurov/cirque-input-module
+    revision: feature/axis-rotation
     path: modules/cirque-input-module
   - name: zmk-central-states-relay
     url: https://github.com/ArtemYurov/zmk-central-states-relay
