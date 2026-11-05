@@ -73,7 +73,7 @@
 
         // ADC sensitivity: "1x", "2x", "3x", "4x" (default "4x")
         sensitivity = MIX_CIRQUE_SENSITIVITY;
-        rotation-angle = <MIX_CIRQUE_ROTATION_ANGLE>;
+        rotation-angle = <(MIX_CIRQUE_ROTATION_ANGLE)>;
         // sleep;       // disabled — trackpad stays always-on
         // no-taps;     // disable tap-to-click (taps enabled by default)
     };
