@@ -14,7 +14,7 @@
 #define MIX_CIRQUE_SENSITIVITY "2x"
 
 /* Relative-axis rotation in degrees; 0 disables rotation */
-#define MIX_CIRQUE_ROTATION_ANGLE -50
+#define MIX_CIRQUE_ROTATION_ANGLE -40
 
 /* Mouse pointer speed: 5/2 (@1x default), 5/2 (@2x fast), 3/1 (very fast) */
 #define MIX_MOUSE_SPEED_NUM 5
