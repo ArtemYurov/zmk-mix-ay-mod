@@ -80,8 +80,10 @@
         // Enable trackpad sleep mode after 5 sec without touch
         sleep-mode-enable;
         primary-tap-enable;
-        // Свойство есть только в тестовой ветке ArtemYurov/zephyr
+        // Свойства есть только в тестовых ветках ArtemYurov/zephyr
         secondary-tap-enable;
+        // Аппаратный скролл ведением вдоль края сенсора
+        scroll-enable;
     };
 };
 
