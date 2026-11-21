@@ -24,3 +24,6 @@
 /* Скорость аппаратного скролла по правому краю (scroll-enable): 1/1 — как отдаёт чип */
 #define MIX_EDGE_SCROLL_SPEED_NUM 1
 #define MIX_EDGE_SCROLL_SPEED_DEN 3
+
+/* Направление скролла по краю: INPUT_TRANSFORM_Y_INVERT — как скролл на слое (естественный), 0 — как отдаёт чип */
+#define MIX_EDGE_SCROLL_TRANSFORM INPUT_TRANSFORM_Y_INVERT

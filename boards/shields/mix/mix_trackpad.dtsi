@@ -14,6 +14,7 @@
         input-processors =
             <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_scaler MIX_MOUSE_SPEED_NUM MIX_MOUSE_SPEED_DEN>,
+            <&zip_scroll_transform (MIX_EDGE_SCROLL_TRANSFORM)>,
             <&zip_scroll_scaler MIX_EDGE_SCROLL_SPEED_NUM MIX_EDGE_SCROLL_SPEED_DEN>;
 
         scroller {
